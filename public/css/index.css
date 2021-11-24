@@ -1,0 +1,43 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  float: left;
+  height: 30px;
+  width: 30px;
+}
+
+.ul-nav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: rgb(34, 10, 10);
+}
+
+.li-nav {
+  float: left;
+  border-right: 10px solid rgb(20, 20, 20);
+}
+
+.li-nav:last-child {
+  border-right: none;
+}
+
+.li-nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li-nav a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04aa6d;
+}
